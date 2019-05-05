@@ -1,3 +1,4 @@
+
 # README
 
 ## membersテーブル
@@ -21,7 +22,9 @@
 |timestamps|null: false|
 
 ### Association
+
 - has_many :messages
+
 - has_many :groups, through: :member
 - has_many :members
 
@@ -34,6 +37,7 @@
 ### Association
 - has_many :users, through: :member
 - has_many :members
+
 - has_many :messages
 
 ## messagesテーブル
